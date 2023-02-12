@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""
-Amenity modules
-"""
+"""Class Amenity"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    name = ""
+    """Represents a City"""
+    name = ''
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+    def __ini__(self, *args, **kwargs):
+        """"""
+        super().__ini__(*args, **kwargs)
